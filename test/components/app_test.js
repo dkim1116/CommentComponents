@@ -17,4 +17,8 @@ describe('App Component', () => {
 		expect(component.find('.comment-box')).to.exist;
 	});
 
+	it('show a class comment list', () => {
+		expect(component.find('.comment-list')).to.exist;
+	});
+
 });
